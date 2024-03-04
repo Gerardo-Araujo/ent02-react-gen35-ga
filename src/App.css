@@ -1,0 +1,54 @@
+.app {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(public/background.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.input__text {
+    padding: 10px;
+    height: 50px ;
+    font-size: 1em;
+}
+.form__Input {
+    border: none;
+    min-height: 10vh;
+    font-size: 0.9em;
+    padding: 0.6em 1.5em;
+    border-radius: 0.5em;
+    font-weight: 400;
+    background-color:rgb(9, 75, 75);
+    color: rgb(63, 20, 182);
+    transition: transform 100ms ease;
+
+}
+
+.city__btn {
+        border: solid rgb(154, 228, 235);
+        font-size: 0.98em;
+        padding: 0.6em 1.5em;
+        border-radius: 0.5em;
+        font-weight: 400;
+        background-color: rgb(65, 180, 180);
+        color: rgb(18, 23, 23);
+        transition: transform 100ms ease;
+    
+}
+
+.city__btn:hover {
+    background-color:rgb(9, 75, 75);
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(244, 244, 246);
+    
+}
+
+.city__btn:active {
+    transform: scale(0.95);
+
+}
